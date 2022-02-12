@@ -1,3 +1,16 @@
+body{
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.pacifico{
+  font-family: 'Pacifico', cursive;
+}
+
+.title{
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
 .main-header{
   background-color:#34495E;
   padding-left:15px;
