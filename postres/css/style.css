@@ -32,7 +32,7 @@ body{
   color:white;
   margin-right:-4px;
   text-decoration: none;
-  width: 33%; /* ocupa el espacio a partir del elemento padre*/
+  width: 25%; /* ocupa el espacio a partir del elemento padre*/
   display: inline-block; /* se pone así para poder cambiar el ancho */
 }
 .text-center{
