@@ -2,6 +2,11 @@ body{
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
+/* wrapped que en el diseño los elementos no esten pegados ni separados */
+.body {
+  padding: 60px 15px;
+}
+
 .pacifico{
   font-family: 'Pacifico', cursive;
 }
@@ -11,16 +16,24 @@ body{
   margin-top: 0;
 }
 
+/* no es recomendable selectores con contenedores como:
+.main-nav a{ }
+ */
+
 .main-header{
   background-color:#34495E;
   padding-left:15px;
   padding-right:15px;
   padding-top:10px;
   padding-bottom:10px;
+  border-radius: 4px;
 }
 .nav-link{
   color:white;
-  margin-right:4px;
+  margin-right:-4px;
+  text-decoration: none;
+  width: 33%; /* ocupa el espacio a partir del elemento padre*/
+  display: inline-block; /* se pone así para poder cambiar el ancho */
 }
 .text-center{
   text-align:center;
